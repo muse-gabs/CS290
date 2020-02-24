@@ -1,0 +1,22 @@
+<h1>Page for GET and POST</h1>
+
+<h1>{{reqMessage}}</h1>
+<h2>From URL</h2>
+<table>
+   {{#each dataList}}
+   <tr>
+      <td>{{this.name}}</td>
+      <td>{{this.value}}</td>
+   </tr>
+   {{/each}}
+</table>
+
+<h2>From JSON</h2>
+<table>
+   {{#each otherDataList}}
+   <tr>
+      <td>{{this.name}}</td>
+      <td>{{this.value}}</td>
+   </tr>
+   {{/each}}
+</table>
